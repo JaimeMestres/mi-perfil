@@ -1,0 +1,151 @@
+body {
+	box-shadow: 15px 15px 15px;
+	border-radius: 4px;
+	font-family: 'Roboto', sans-serif;
+	background-color: rgb(255, 240, 240);
+}
+img {
+	width: 150px;
+	border: 10px solid sandybrown;
+	border-radius: 25%;
+}
+ul {
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 17px;
+}
+.banner {
+    background-image: url(images/parquesanmartin.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+    text-align: center;
+}
+.btn-blue {
+    background-color: #1A48E3;
+    color: white;
+    padding: 16px 48px;
+    border-radius: 4px;
+    display: inline-block;
+    text-decoration: none;
+    transition: .3s;
+    font-size: 20px;
+    font-weight: bold;
+}
+p {
+	padding: 5px 10px;
+	margin: 5px;
+	border-radius: 4px;
+	font-family: helvetica italic;
+	font-size: 20px;
+	background-color: sandybrown;
+}
+h1 {
+    text-align: center;
+    color: black;
+    font-weight: lighter;
+    font-family: helvetica italic;
+    text-transform: inherit;
+    padding: 1px;
+    margin: 5px;
+    background: rgba(255, 255, 255, 0.5);
+ }
+.img-circle {
+	width: 150px;
+	border-radius: 25%;
+}
+.img-circle {
+    border: 15px solid brown;
+    box-shadow: 0px 0px 12px 15px;
+}
+h3 {
+	text-align: center;
+	color: black;
+	background-color: rgba(200, 200, 200, 0.1);
+	font-size: 25px;
+	font-family: helvetica italic;
+}
+h4 {
+	text-align: center;
+	color: darkblue;
+	background-color: rgba(255, 255, 255, 0.5);
+	font-size: 20px;
+	border-radius: 4px;
+}
+
+/* Custom design with class (99% of your design) */
+.container {
+  width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+.container {
+	color:  red;
+	width: 600px;
+  }
+}
+
+@media (max-width: 500px) {
+	.container {
+	width: 400px;
+	}
+}
+
+/* Custom design with class container */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+.card-white {
+    background-color: lightseagreen;
+    padding: 25px;
+    box-shadow: 10px 20px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    margin: 5px 5px;
+   	border-radius: 4px;
+}
+.btn-blue {
+	background-color: sandybrown;
+	color: brown;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: white;
+	color: whitesmoke;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+font-size: 25px;
+color: sandybrown;
+}
+.list-inline i:hover {
+color: black;
+}
+#introduction p {
+	margin-bottom: 40px;
+}
+a:-webkit-any-link {
+    color: black;
+    text-decoration: none;
+    padding: 25px;
+}
+a:hover {
+	text-align: left;
+	text-decoration: none;
+	color: darkred;
+}
+#Footer {
+	background-color: rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+}
